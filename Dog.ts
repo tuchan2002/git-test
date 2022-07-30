@@ -11,4 +11,7 @@ export class Dog {
     eat() {
         console.log(`${this.name} is eating...`);
     }
+    jump() {
+        console.log(`${this.name} is jumping...`);
+    }
 }
