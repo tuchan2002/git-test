@@ -3,15 +3,23 @@ export class Dog {
     private age: number;
     private mouth: boolean;
     private hand: boolean;
-    constructor(name: string, age: number, mouth: boolean, hand: boolean) {
+    private foot: boolean;
+    constructor(
+        name: string,
+        age: number,
+        mouth: boolean,
+        hand: boolean,
+        foot: boolean
+    ) {
         this.name = name;
         this.age = age;
         this.mouth = mouth;
         this.hand = hand;
+        this.foot = foot;
     }
     print() {
         console.log(
-            `Name: ${this.name}, Age: ${this.age}, Mouth: ${this.mouth}, Hand: ${this.hand}`
+            `Name: ${this.name}, Age: ${this.age}, Mouth: ${this.mouth}, Hand: ${this.hand}, Foot: ${this.foot}`
         );
     }
     eat() {
