@@ -14,4 +14,7 @@ export class Cat {
     run() {
         console.log(`${this.name} is running...`);
     }
+    swim() {
+        console.log(`${this.name} is swimming...`);
+    }
 }
