@@ -14,4 +14,7 @@ export class Dog {
     jump() {
         console.log(`${this.name} is jumping...`);
     }
+    run() {
+        console.log(`${this.name} is running...`);
+    }
 }
