@@ -11,4 +11,7 @@ export class Cat {
     eat() {
         console.log(`${this.name} is eating...`);
     }
+    run() {
+        console.log(`${this.name} is running...`);
+    }
 }
