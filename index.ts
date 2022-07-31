@@ -23,3 +23,8 @@ tippy.eat();
 tippy.eat();
 tippy.eat();
 tippy.print();
+
+const koi = new Fish("Koi", 0.5, []);
+koi.eat();
+koi.eat();
+koi.print();
