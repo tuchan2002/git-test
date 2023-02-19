@@ -28,3 +28,5 @@ const koi = new Fish("Koi", 0.5, []);
 koi.eat();
 koi.eat();
 koi.print();
+
+console.log("Commit A");
