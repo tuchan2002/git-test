@@ -31,3 +31,4 @@ koi.print();
 
 console.log("Commit A");
 console.log("Commit B");
+console.log("Commit C");
